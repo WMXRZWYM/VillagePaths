@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.friend.vulkbatch.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "MixinBufferBuilder"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

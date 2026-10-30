@@ -1,0 +1,19 @@
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+*.launch
+
+# idea
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# macos
+*.DS_Store
+
+# fabric
+run/
