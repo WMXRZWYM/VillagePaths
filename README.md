@@ -1,4 +1,5 @@
-# VulkBatch
+# VulkBatch<img width="256" height="256" alt="V" src="https://github.com/user-attachments/assets/9e6fd7b7-56d8-4fe2-be5d-f54a2bba2c0b" />
+
 
 A lightweight client-side optimization mod for Minecraft 26.3 (Vulkan/OpenGL).
 
