@@ -51,5 +51,15 @@
       <option name="name" value="Aliyun" />
       <option name="url" value="https://maven.aliyun.com/repository/public" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="BMCLAPI" />
+      <option name="name" value="BMCLAPI" />
+      <option name="url" value="https://bmclapi2.bangbang93.com/maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Sponge" />
+      <option name="name" value="Sponge" />
+      <option name="url" value="https://repo.spongepowered.org/repository/maven-public/" />
+    </remote-repository>
   </component>
 </project>

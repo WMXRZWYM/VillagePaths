@@ -4,7 +4,8 @@
   "package": "com.friend.vulkbatch.mixin",
   "compatibilityLevel": "JAVA_25",
   "client": [
-    "MixinBufferBuilder"
+    "MixinBufferBuilder",
+    "MixinLevelRenderer"
   ],
   "injectors": {
     "defaultRequire": 1

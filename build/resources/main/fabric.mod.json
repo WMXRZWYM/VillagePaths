@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "vulkbatch",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "VulkBatch",
   "description": "Vulkan Batch Optimizer",
   "authors": ["ReturnHome"],
