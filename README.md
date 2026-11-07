@@ -1,21 +1,37 @@
-# VulkBatch
-<img width="256" height="256" alt="V" src="https://github.com/user-attachments/assets/9e6fd7b7-56d8-4fe2-be5d-f54a2bba2c0b" />
 
+  
+  <h1>🛣️ VillagePaths</h1>
+  <p><b>Automatically connects Minecraft villages with smart, terrain-adaptive roads.</b></p>
 
-A lightweight client-side optimization mod for Minecraft 26.3 (Vulkan/OpenGL).
+  <!-- 下载链接徽章 -->
+  <a href="https://github.com/WMXRZWYM/VillagePaths/releases">
+    <img src="https://img.shields.io/badge/GitHub-Releases-blue?style=for-the-badge&logo=github" alt="GitHub Releases">
+  </a>
+</div>
 
-## Features
+---
 
-- **BufferBuilder Batching:** Intercepts `BufferBuilder` builds to reuse memory allocations, significantly reducing GC pressure during heavy entity and particle rendering.
-- **Chunk Rebuild Optimization:** Introduces a 5-tick rolling window to skip redundant chunk rebuilds, saving CPU cycles when blocks are constantly updated (e.g., explosions, fast mining).
-- **Vulkan & OpenGL Support:** Fully compatible with both rendering backends introduced in Minecraft 26.x.
+Tired of wandering aimlessly to find the next village? **VillagePaths** is a world-generation and utility mod for Minecraft 26.x that generates 3x3 roads to guide you from one village to another, integrating seamlessly with the vanilla terrain.
 
-## Installation
+## ✨ Features
 
-1. Install **Fabric Loader** for Minecraft 26.3.
-2. Download and drop the `.jar` file into your `mods` folder.
-3. Requires **Fabric API**.
+*   **Auto-Generation:** 5 seconds after a player joins, the mod scans for nearby villages and automatically plans a route.
+*   **Terrain-Adaptive:** The road places wooden bridges over water, digs through hills, and builds cobblestone foundations over ravines.
+*   **Vanilla-Friendly:** The roads adapt to the biome (Dirt paths in plains, Smooth Sandstone in deserts, Gravel in mountains) and naturally skip over village buildings to protect them.
+*   **Guiding Lights:** Torches are placed every 10 blocks along the path, creating a guiding light trail to the next village.
+*   **Zero Lag:** Built with an asynchronous tick-queue system. Road generation is spread across multiple game ticks, ensuring your server never freezes.
 
-## License
+## 📋 Requirements
 
-This project is licensed under the MIT License.
+*   Minecraft 26.0+
+*   Fabric Loader
+*   Fabric API
+*   Java 25
+
+## 📥 Downloads
+
+*   **GitHub Releases**: [Click here](https://github.com/WMXRZWYM/VillagePaths/releases)
+
+## 📄 License
+
+This project is licensed under the **MIT** License.
