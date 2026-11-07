@@ -1,19 +1,36 @@
+# --- 1. Gradle & 编译产物 ---
 .gradle/
 build/
 out/
 classes/
+bin/
 
-# eclipse
-*.launch
-
-# idea
+# --- 2. IntelliJ IDEA 配置 ---
 .idea/
 *.iml
 *.ipr
 *.iws
 
-# macos
-*.DS_Store
+# --- 3. Eclipse 配置 (如果你用) ---
+.settings/
+.project
+.classpath
 
-# fabric
+# --- 4. VS Code 配置 (如果你用) ---
+.vscode/
+
+# --- 5. Minecraft 运行目录 ---
 run/
+server/
+logs/
+crash-reports/
+
+# --- 6. 打包生成的 Jar 文件 ---
+# 忽略所有 jar，但保留 Gradle Wrapper 必须的 gradle-wrapper.jar
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# --- 7. 本地环境与系统文件 ---
+.env
+.DS_Store
+Thumbs.db

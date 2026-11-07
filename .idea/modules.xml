@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VulkBatch.main.iml" filepath="$PROJECT_DIR$/.idea/modules/VulkBatch.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VulkBatch.test.iml" filepath="$PROJECT_DIR$/.idea/modules/VulkBatch.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VillagePaths.iml" filepath="$PROJECT_DIR$/.idea/modules/VillagePaths.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VillagePaths.main.iml" filepath="$PROJECT_DIR$/.idea/modules/VillagePaths.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VillagePaths.test.iml" filepath="$PROJECT_DIR$/.idea/modules/VillagePaths.test.iml" />
     </modules>
   </component>
 </project>

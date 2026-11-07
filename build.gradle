@@ -1,4 +1,5 @@
 plugins {
+    // 26.x 必须使用非重映射的 Loom 插件
     id 'net.fabricmc.fabric-loom' version "${fabric_loom_version}"
 }
 
@@ -11,26 +12,18 @@ base {
 
 repositories {
     maven {
-        name = 'BMCLAPI'
-        url = 'https://bmclapi2.bangbang93.com/maven/'
-    }
-    maven {
         name = 'Fabric'
         url = 'https://maven.fabricmc.net/'
     }
-    maven {
-        name = 'Sponge'
-        url = 'https://repo.spongepowered.org/repository/maven-public/'
-    }
+    mavenCentral()
 }
 
 dependencies {
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    // 26.x 的 Jar 已包含 Mojang 官方类名，无需 mappings 行
+
     implementation "net.fabricmc:fabric-loader:${project.fabric_loader_version}"
     implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
-
-    // 这里直接把版本号写死，不再依赖 gradle.properties 的变量
-    compileOnly "net.fabricmc:sponge-mixin:0.17.5+mixin.0.8.7"
 }
 
 processResources {

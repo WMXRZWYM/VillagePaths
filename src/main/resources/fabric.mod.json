@@ -1,20 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "vulkbatch",
+  "id": "villagepaths",
   "version": "${version}",
-  "name": "VulkBatch",
-  "description": "Vulkan Batch Optimizer",
-  "authors": ["ReturnHome"],
+  "name": "VillagePaths",
+  "description": "Connects villages with paths.",
+  "authors": [
+    "WMXRZWYM"
+  ],
+  "contact": {},
   "license": "MIT",
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
-    "client": ["com.friend.vulkbatch.VulkBatch"]
+    "main": [
+      "com.friend.villagepaths.VillagePaths"
+    ]
   },
-  "mixins": ["vulkbatch.mixins.json"],
+  "mixins": [
+    "villagepaths.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.20.1",
-    "fabric-api": "*",
-    "minecraft": "~26.3",
-    "java": ">=25"
+    "minecraft": ">=26.3",
+    "java": ">=25",
+    "fabric-api": "*"
   }
 }
