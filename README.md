@@ -1,9 +1,16 @@
-<img width="1631" height="1596" alt="VP" src="https://github.com/user-attachments/assets/3bec377a-c18f-421e-a440-159f837a4678" />
+  <img width="1631" height="1596" alt="VP(clear)" src="https://github.com/user-attachments/assets/87296603-45c2-4a09-9614-81067d3f32d5" />
 
+  
   <h1>🛣️ VillagePaths</h1>
   <p><b>Automatically connects Minecraft villages with smart, terrain-adaptive roads.</b></p>
 
   <!-- 下载链接徽章 -->
+  <a href="https://www.curseforge.com/minecraft/mc-mods/villagepaths">
+    <img src="https://img.shields.io/badge/CurseForge-Download-orange?style=for-the-badge&logo=curseforge" alt="CurseForge">
+  </a>
+  <a href="https://modrinth.com/mod/villagepaths">
+    <img src="https://img.shields.io/badge/Modrinth-Download-green?style=for-the-badge&logo=modrinth" alt="Modrinth">
+  </a>
   <a href="https://github.com/WMXRZWYM/VillagePaths/releases">
     <img src="https://img.shields.io/badge/GitHub-Releases-blue?style=for-the-badge&logo=github" alt="GitHub Releases">
   </a>
@@ -30,6 +37,8 @@ Tired of wandering aimlessly to find the next village? **VillagePaths** is a wor
 
 ## 📥 Downloads
 
+*   **CurseForge**: [Click here](https://www.curseforge.com/minecraft/mc-mods/villagepaths)
+*   **Modrinth**: [Click here](https://modrinth.com/mod/villagepaths)
 *   **GitHub Releases**: [Click here](https://github.com/WMXRZWYM/VillagePaths/releases)
 
 ## 📄 License
