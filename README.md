@@ -1,5 +1,5 @@
+<img width="1631" height="1596" alt="VP" src="https://github.com/user-attachments/assets/3bec377a-c18f-421e-a440-159f837a4678" />
 
-  
   <h1>🛣️ VillagePaths</h1>
   <p><b>Automatically connects Minecraft villages with smart, terrain-adaptive roads.</b></p>
 
